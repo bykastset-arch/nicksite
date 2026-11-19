@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    background-color: lightgreen;
+}
+p{
+    text-align: center;
+    font-size: 50px;
+    color: aqua;
+    background-color: bisque;
+}
+table{
+    border: 5px double darkcyan;
+    font-size: 24px;
+    width: 50%;
+    margin: auto;
+    border-collapse: separate;
+}
+th,td{
+    border: 1px solid darkblue;
+    width: 25%;
+    height: 1cm;
+}
+tr:hover{
+    background-color: lightgray;
+}
+td:hover{
+    color: bisque;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2em;
+    background-image: url(https://media.tenor.com/UZswyok8T-oAAAAM/pride-rainbow.gif);
+}
+tr:nth-child(odd){
+    background-color: lightpink;
+}
+tr:nth-child(even){
+    background-color: lightblue;
+}
+.s1{
+    color: green;
+    vertical-align: bottom;
+    text-align: right;
+}
+caption{
+    font-size: 2em;
+    text-transform: uppercase;
+    background: linear-gradient(to left, red, orange, yellow, green, indigo, violet);
+}
+    </style>
+</head>
+<body>
+    <p>Ми вивчаємо таблиці</p>
+    <table>
+        <caption>HTML colors</caption>
+        <thead>
+            <tr>
+                <th colspan="2">Color+Name</th>
+                <th>Hex</th>
+                <th>RBG</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="background-color: black;"></td>
+                <td>Black</td>
+                <td>#000000</td>
+                <td>(0,0,0)</td>
+            </tr>
+            <tr>
+                <td style="background-color: red;"></td>
+                <td>Red</td>
+                <td class="s1">#ff0000</td>
+                <td>(255,0,0)</td>
+            </tr>
+            <tr>
+                <td style="background-color: green;"></td>
+                <td>Green</td>
+                <td>#00ff00</td>
+                <td>(0,255,0)</td>
+            </tr>
+            <tr>
+                <td style="background-color: blue;"></td>
+                <td>Blue</td>
+                <td>#0000ff</td>
+                <td class="s1">(0,0,255)</td>
+            </tr>
+            <tr>
+                <td style="background-color: yellow;"></td>
+                <td>Yellow</td>
+                <td>#ffff00</td>
+                <td>(255,255,0)</td>
+            </tr>
+            <tr>
+                <td style="background-color: aqua;"></td>
+                <td class="s1">aqua</td>
+                <td>#00ffff</td>
+                <td>(0,255,255)</td>
+            </tr>
+            <tr>
+                <td style="background-color: fuchsia;"></td>
+                <td>Fuchsiak</td>
+                <td>#ff00ff</td>
+                <td>(255,0,255)</td>
+            </tr>
+            <tr>
+                <td style="background-color: teal;"></td>
+                <td class="s1">Teal</td>
+                <td>#008080</td>
+                <td>(0,128,128)</td>
+            </tr>
+            <tr>
+                <td style="background-color: olive;"></td>
+                <td>Olive</td>
+                <td>#808000</td>
+                <td>(128,128,0)</td>
+            </tr>
+            <tr>
+                <td style="background-color: purple;"></td>
+                <td class="s1">Purple</td>
+                <td>#800080</td>
+                <td>(128,0,128)</td>
+            </tr>
+            <tr>
+                <td style="background-color: grey;"></td>
+                <td>Grey</td>
+                <td>#888888</td>
+                <td>(128,128,0)</td>
+            </tr>
+            <tr>
+                <td style="background-color: white;"></td>
+                <td>White</td>
+                <td>#ffffff</td>
+                <td>(255,255,255)</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
